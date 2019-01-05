@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button"
+    onclick="method()" value="전송" />
+    
+    <select id="sel01"
+       onchange="method2()">
+        <option value="1">자장면</option>
+        <option value="2">짬뽕</option>
+        <option value="3">탕수육</option>
+    </select>
+    <script>
+        var sel01 =
+        document.getElementById("sel01");
+        
+        //alert(sel01.value);
+        
+        function method(){
+            alert("method가 호출되었다.");
+        }
+    
+        function method(){
+            alert("method2가 호출되었다.");
+        }
+    </script>
+</body>
+</html>

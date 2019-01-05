@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+function alertPrint(){
+    alert("안녕하세요");
+}    
+    
+function print(){
+    return "안녕하세요";
+}
+    
+function paramprint(param){
+    return param;
+}    
+
+function add(a, b , temp){
+ 
+    var result = 0;
+    
+    if(temp == "add"){
+        result = a + b;
+    }else if(temp == "minus"){
+        result = a - b;
+    }
+
+    return result;
+}
+
+    
+//alertPrint();
+
+//1번 방법
+//var str = "안녕하세요";
+//alert(str);
+    
+//2번 방법
+//alert(print());
+//console.log(print());
+//alert("안녕하세요");
+  
+var result = calcul(4, 4, "minus");
+console.log(result);
+</script>    
+</body>
+</html>

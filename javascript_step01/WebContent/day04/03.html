@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <input type="text" id="txt01" value="류완선"/> -->
+    <input type="text" id="txt01" />
+    <input type="button" value="전송"
+   id="btn01" onclick="action()"/>
+   
+    <script>
+        var txt01 =
+        document.getElementById("txt01");
+        
+        //txt01.value = "류완선.";
+        
+        
+        function action(){
+            var result = txt01.value;
+            alert(result);
+        }
+    </script>    
+</body>
+</html>

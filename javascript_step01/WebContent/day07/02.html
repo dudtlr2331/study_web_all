@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+//        for(var i=0; i<1000; i++){
+//            document.write("<h1>안녕</h1>";)
+//        }
+    
+        var arr = ["류완선", 30, "백수", function(){alert();}];
+        var obj = {};
+        
+        var 완선 = {
+            이름 : "류완선",
+            나이 : 30,
+            성별 : "남",
+            직업 : "백수",
+            하고싶은말 : function(){
+                alert("안녕하세요" + this.이름 + "입니다.");
+            }
+        };
+        
+        완선.하고싶은말();
+        
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

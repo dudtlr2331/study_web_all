@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+    /* 선언. */
+    var cnt;
+    
+    function add(cnt){
+        this.cnt = this.cnt + cnt;
+    }
+    
+    function print(){
+        alert(this.cnt);
+    }
+    </script>
+</head>
+<body>
+    <script>
+       /* 실행코드 */
+       cnt = 2;
+       add(3);
+       print();
+    </script>
+</body>
+</html>

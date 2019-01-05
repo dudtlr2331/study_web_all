@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    //김준성
+    var man01 = {
+        name :"김준성" ,
+        age : 30,
+        gender : "남",
+        userInfo : function(){
+            alert("안녕하세요"+ this.name + "입니다.")
+        }
+    }
+
+
+    //류완선
+    var man02 = {};
+        man02.name ="류완선";
+        man02.age =30;
+        man02.gender ="남자";
+        man02.userInfo = function(){
+            alert("안녕하세요"+ man02.name + "입니다.")
+        };
+       
+       man02.userInfo();
+       man02.name = "류땅딸";
+       man02.userInfo();
+       
+       // man02 는 현재 alert()이지만 console.log로 변경하시오.
+       
+//       man02.userInfo = function(){
+//           console.log("안녕하세요"+ man02.name + "입니다.")
+//       }
+//       man02.userInfo();
+       
+    
+    //성영식
+    var man03 = {
+        name : "성영식",
+        age : 19,
+        gender : "남자",
+        userInfo : function(){
+            alert("안녕하세요"+ this.name + "입니다.")
+        }
+    }
+    
+    //var memberClass = [man01, man02, man03];
+       
+    //memberClass[0].userInfo(); // 안녕하세요 김준성 입니다.
+    
+   
+    
+    //포문을돌려서 memberClass 배열의 모든 사람들의 userInfo() 가 호출되도록 아래 코드 작성.
+
+        var memberClass = [man01, man02, man03]
+       for(var i=0; i<memberClass.length; i++){
+           memberClass[i].userInfo();
+       }
+       
+       
+    </script>
+</body>
+</html>

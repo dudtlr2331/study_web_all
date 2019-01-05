@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>회원 등록</h1>
+	<form action="/P0002_servlet_base/member/register.do" method="post">
+	<table>
+		<tr>
+			<th>ID</th>
+			<td>
+			<input type="text" name="id">
+			</td>
+		</tr>
+		<tr>
+			<th>NAME</th>
+			<td>
+			<input type="text" name="name">
+			</td>
+		</tr>
+		<tr>
+			<th>password</th>
+			<td>
+			<input type="password" name="password">
+			</td>
+		</tr>
+		<tr>
+			<th>gender</th>
+			<td>
+			<label for="genderm">남자</label>
+			<input type="radio" name="gender" id="genderm" value="M">
+			<label for="genderw">여자</label>
+			<input type="radio" name="gender" id="genderw" value="W">
+			</td>
+		</tr>
+		<tr>
+			<th>age</th>
+			<td>
+			<input type="number" maxlegth="3" name="age">
+			</td>
+		</tr>
+		<tr>
+			<th>tel</th>
+			<td>
+			<input type="tel" name="phoneNumber">
+			</td>
+		</tr>
+	</table>
+	<div><input type="submit" value="전송"/></div>
+	</form>
+</body>
+</html>

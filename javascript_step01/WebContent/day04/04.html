@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+   
+     <select onchange="method()"
+     id="sel01">
+        <option value="1">선택</option>
+        <option value="2">자장면</option>
+        <option value="3">짬뽕</option>
+    </select>  
+   
+   
+   <script>
+       var sel01 =
+           document.getElementById("sel01");
+       
+       
+       function method(){
+           alert(sel01.value);
+       }
+    </script>
+</body>
+</html>

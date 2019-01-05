@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+</head>
+<body>
+	<input type= "text" id="txt_msg" />
+	<input type= "button" value="speack" onclick="speak()" />
+	
+	<script type="text/javascript">
+	function speck(){
+		var speck = $("#txt_msg").val();
+		responsiveVoice.speak(speak);
+	}
+	</script>
+</body>
+</html>
