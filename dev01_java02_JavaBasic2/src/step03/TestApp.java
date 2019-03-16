@@ -22,7 +22,7 @@ public class TestApp {
 //	}
 	// 데이터 캡슐화.
 //	public static void main(String[] args) {
-//		Coffee c01 = new Coffee();
+//	 	Coffee c01 = new Coffee();
 //		c01.printInfo();
 //		//c01.name = "아메리카노";
 //		//c01.price = 4100;
